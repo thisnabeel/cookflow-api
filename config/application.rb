@@ -36,7 +36,7 @@ module CookFlow
       end
 
       allow do 
-        origins "https://www.quranflow.com"
+        origins "https://www.https://cookflow.vercel.app"
         resource '*', :headers => :any, :methods => [:get, :post, :delete, :options]
       end
     end
