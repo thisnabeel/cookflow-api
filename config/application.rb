@@ -36,7 +36,7 @@ module CookFlow
       end
 
       allow do 
-        origins "https://www.https://cookflow.vercel.app"
+        origins "https://cookflow-api.onrender.com"
         resource '*', :headers => :any, :methods => [:get, :post, :delete, :options]
       end
     end
