@@ -37,7 +37,7 @@ module CookFlow
 
       allow do 
         origins "https://cookflow-api.onrender.com"
-        resource '*', :headers => :any, :methods => [:get, :post, :delete, :options]
+        resource '*', :headers => :any, :methods => [:get, :post, :delete, :options, :put]
       end
     end
 
