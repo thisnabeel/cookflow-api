@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  questionable_type: MyString
+  questionable_id: 1
+  body: MyText
+  answer: MyText
+
+two:
+  questionable_type: MyString
+  questionable_id: 1
+  body: MyText
+  answer: MyText
